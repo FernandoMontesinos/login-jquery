@@ -1,0 +1,90 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2f3542;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box{
+     width: 300px;
+     padding: 40px;
+     background-color: #191919;
+     text-align: center;
+     border-radius: 40px;
+}
+
+.form-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+    border: 0;
+    background-color: transparent;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #FFFF00;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.form-box button[type="submit"]{
+    color: #000;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+    width: 280px;
+    border-color: #fff;
+}
+
+.form-box button[type="submit"]{
+    border: 0;
+    background: #FFFF00;
+    cursor: pointer;
+    border: 2px solid #FFFF00 ;
+    
+}
+
+.form-box button[type="submit"]:hover{
+    background: none;
+    color: #fff;
+}
+
+.sinregistro{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: none;
+    margin-top: 2rem;
+}
+
+.conregistro{
+    
+    background-color: greenyellow;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: none;
+}
